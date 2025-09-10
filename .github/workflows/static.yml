@@ -1,0 +1,103 @@
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>My Awesome Website</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Judah Belgrade</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Dunno lol</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Judah
+                        <span class="text-primary">Belgrade</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Brandeis · Waltham, Ma 02453 · 
+                        <a href="mailto:judahbelgrade@brandeis.edu">judahbelgrade@brandeis.edu</a>
+                    </div>
+                    <p class="lead mb-5">I'm gonna make cool things! Yay!</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Name Tag</h3>
+                            <div class="subheading mb-3">The first venture</div>
+                            <p>
+                            <img src="assets/img/nametag.jpg" style="float:right" width="300" height="400">
+                            After making multiple layers by accident, oopsie. We tricked it into skipping a layer and just printing it normally. I need to be very careful with the software. It was a waste of time if I didn’t catch it first, but now it looks cool. Yipee. That took longer than expected.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 3rd 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Benchy Boat Stress Test</h3>
+                            <div class="subheading mb-3">Less Stressful, more boaty</div>
+                            <p>
+                            <img src="assets/img/bengy.jpg" style="float:right" width="300" height="400">
+                            Easiest thing ever. The Printer took it like a champ. It looks so nice. It works with a lot of details, as it is the one being tested with most of the printers, so it is only natural that it worked out as well as it did.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 7th 2025</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Left Joy Con Grip</h3>
+                            <div class="subheading mb-3">Pain in the Left</div>
+                            <p>
+                            <img src="assets/img/leftjoyconcontroller.jpg" style="float:right" width="300" height="400">
+                            After making sure I had the right (left) controller, I needed to choose a stabilizer because it couldn’t stay flat on the printing sheet. It seems like the Organic is easiest to remove, but that’s to be seen. Calibrating the printer wasn’t too hard, nor was a change necessary for the nozzle elevation level. So like, hopefully it prints well.
+                            After it printed I realized there must've been a better angle to print it on, because the legs of the controller were a pain in the ass to clean off. Maybe I’ll do it again a different day or layer it over with something different to make it come comfortable.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 10th 2025</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Dunno lol</h2>
+                    <img src="assets/img/troll.webp" width="300" height="400">
+                </div>
+            </section>
+            <hr class="m-0" />
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
