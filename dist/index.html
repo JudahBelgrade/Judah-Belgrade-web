@@ -15,6 +15,24 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+<style>
+* {
+box-sizing: border-box;
+}
+
+.column {
+float: left;
+width: 50%;
+padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+</style>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -29,6 +47,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <il class="subnav"><a class="nav-link js-scroll-trigger" href="#project1">Project 1</a></il>
                     <il class="subnav"><a class="nav-link js-scroll-trigger" href="#project2">Project 2</a></il>
+                    <il class="subnav"><a class="nav-link js-scroll-trigger" href="#project3">Project 3</a></il>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Dunno lol</a></li>
                 </ul>
             </div>
@@ -64,7 +83,7 @@
                     Cool shit
             <section class="resume-section" id="project1">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Project 1</h2>
+                    <h2 class="mb-0">Project 1</h2>
                     We're supposed to use three different type of tests to familiarize ourselves with the printers and the problems that could arise when using them.
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -110,7 +129,8 @@
             </section>
             <section class="resume-section" id="project2">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Project 2</h2>
+                    <h2 class="mb-0">Project 2</h2>
+                    <div class="mb-3"> Make stuff in tincercad and compare it to fusion and then edit a cool model we find online </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Tinkercad Ring</h3>
@@ -131,7 +151,9 @@
                             Splicing and stitching shapes together to create larger, more complex creations is fun and a great brain teaser.
                             Especially the simple User Interface. While the selection of shapes might be limiting, that is part of the creation process. 
                             Making more shapes out of other shapes is part of how the program's limitations breed endless possibilities.
-                            <img src="assets/img/Fusion Ring.png" style="float:right" width="400" height="400">
+                            <div class="row">
+                                <img src="assets/img/Fusion Ring.png" style: width=100%, float: right;>
+                            </div>
                         </div>
                         <div class="flex-shrink-0"> <span class="text-primary">September 15th 2025 </span></div>
                     </div>
@@ -156,7 +178,14 @@
                             I printed it and found some problems. 
                             The ridges carrying the 3ds still needed to be expanded, and the charging port was not large enough. 
                             These were the main focuses I would take to Fusion.
-                            <img src="assets/img/TInkercad prototype.jpg" style="float:right" width="400" height="400">
+                            <div class="row">
+                                <div class="column">
+                                    <img src="assets/img/TInkercad prototype.jpg" style: width=100%, float: right;>
+                                </div>
+                                <div class="column">
+                                    <img src="assets/img/the bad one.jpg" style: width=100%, float: left;>
+                                </div>
+                            </div>
                         </div>
                         <div class="flex-shrink-0"> <span class="text-primary">September 15th 2025 </span></div>
                     </div>
@@ -164,14 +193,19 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Second 3DS Stand</h3>
                             <div class="subheading mb-3">TAKEN APART!</div>
+                            <div class="flex-shrink-0"> <span class="text-primary">September 18th 2025 </span></div>
                             Before I started using Fusion, I split apart the design to its main components in Tinkercad: The Front, The Base, The Left and Right Ridge Stands, The Two Support Prongs that Hold the Charger Cord, and the Charger Box (now with more space inside). 
                             So after sending them all individually into Fusion, it took an embarrassingly long amount of time to not only get them all in, but put them all in the same file and unlink each piece so they can be edited. 
                             At that point there were some auto recommendations the software provided to fill up unnecessary holes and simplify the general structure. 
                             Sadly, I was unable to fix the logo, but each aspect of the creation was made a little larger in the slicing and editing process.
                             I also decided for my sanity to make each piece of the print flat on the board, so I can put it together when it’s done, as by adding the human touch of physical assembly, it’s almost like I am taking part in a third interface for remixing: Reality.
-                            <img src="assets/img/Fusion printed.jpg" style="float:right" width="400" height="400">
-                        </div>
-                        <div class="flex-shrink-0"> <span class="text-primary">September 18th 2025 </span></div>
+                            <div class="row">
+                                <div class="column">
+                                    <img src="assets/img/Fusion printed.jpg" style: width=100%, float:left>
+                                </div>
+                                <div class="column">
+                                    <img src="assets/img/standing.jpg" style: width=100%, float:right>
+                                </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -183,14 +217,73 @@
                             That was fun. Tactile construction is a lot more enjoyable than the digital make-up of the software. 
                             Also, if I didn’t print it out in pieces, I wouldn't be able to have improved the design last second. 
                             Overall, reality is the best interface, because it’s what you make of it.
-                        <div class="row">
-                            <img src="assets/img/Put together used.jpg" style="float:left" width="400" height="400">
-                        </div>
-                        <div class="row">
-                            <img src="assets/img/Compared Types.jpg" style="float:right" width="400" height="400">
+                            <div class="row">
+                                <div class="column">
+                                    <img src="assets/img/Put together used.jpg" style: width=100%, float: left;>
+                                </div>
+                                <div class="column">
+                                    <img src="assets/img/Compared Types.jpg" style: width=100%, float: right;> 
+                                </div>
+                            </div>
+                        <div class="flex-shrink-0"> <span class="text-primary">September 19th 2025 </span></div>
                     </div>
-                    <div class="flex-shrink-0"> <span class="text-primary">September 19th 2025 </span></div>
+            </section>
+            <section class="resume-section" id="project3">
+                <div class="resume-section-content">
+                    <h2 class="mb-0">Project 3</h2>
+                    <div class="mb-3"> The goal of this project was to solder and make a shell for said object we were soldering a board for, that being a radio. Starting this project meant working in pairs, so I had to make sure to trust my partner. While we both took turns using the solder, as we both wanted experience practicing, it was of the utmost importance to keep our setup organized, unless we would cross paths and damage the radio with the hot solder, or worse, each other. </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Soldering the radio</h3>
+                            <div class="subheading mb-3">First Contact</div>
+                            Getting the pieces to solder to the board was difficult sometimes, and when we finished in multiple sessions, it still didn't work. Probably an issue with how we constructed it as we had a pretty large nozzle. But we kept our production organized, despite the difficulties with the soldering.
+                            <div>
+                        <div class="row">
+                            <div class="column">
+                                <img src="assets/img/radio.jpg" style: width=100%, float: left;>
+                            </div>
+                            <div class="column">
+                                <img src="assets/img/back radio.jpg" style: width=100%, float: right;> 
+                            </div>
+                        </div>
+                    <div class="flex-shrink-0"> <span class="text-primary">October 16th 2025 </span></div>
                 </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Measuring the radio</h3>
+                            <div class="subheading mb-3">numbers and numbers</div>
+                            Afterwards, my project partner Steven Nasar and I took measurements of every dimension and protrusion of the radio. That being the buttons, the knob, the radio antenna, the speaker, and the battery, as to make a case for it. That took a while and we did need to take new measurements whenever things didn’t match up. All of it was a constant process of design and redesign.
+                            <img src="assets/img/Radio measurments.jpg">
+                    </div>
+                    <div class="flex-shrink-0"> <span class="text-primary">October 18th 2025 </span></div>
+                </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Modeling the radio shell</h3>
+                            <div class="subheading mb-3">Smile and Wave boys</div>
+                            Using Tinkercad to do the modeling for the 3D print and the 2D cut, we used the literal one for one measurements and positions of the board, and expanded it for the model to make space for it, as it will not be exact. The inaccuracies of 3D printing need to be accounted for.
+                            Not only that, but laser cutting will need to be done in hopes of having a completed project. That involves making the container for the radio piece by piece. First it was a box, and then it will have groves. Yippee. I am tired.
+                            <div class="row">
+                                <img src="assets/img/Screenshot 2025-10-17 141741.png">
+                            </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Making a Laser Cut for the Radio</h3>
+                            <div class="subheading mb-3">That's how the cookie crumbles</div>
+                            First it was a shell that didn’t need to make room for the radio to be inserted in, but rather to be built around the radio. I made this piece by piece, alienating each side of the radio shell model, as to keep the measurements flat. It’s fun! We made it again, but with grooves. They didn't stay in, oh well!
+                            <div class="row">
+                                <div class="column">
+                                    <img src="assets/img/wooden cut.jpg" style: width=100%, float: left;>
+                                </div>
+                                <div class="column">
+                                    <img src="assets/img/grooves radio.jpg" style: width=100%, float: right;>
+                                </div>
+                            </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">We need to stop now</h3>
+                            <div class="subheading mb-3">yup</div>
+                            This stuff took forever because of the holidays, as such we did not have the same amount of time to work on it outside the classroom as expected. When time contraints are planned out for the majority but cannot be worked around by the minority, it requires enginuity not only in hoow to design time, but make a design faster to save it as well. Both me and my partner took time in between moments of stress and overcomplicated schedules to work on the project, but despite that, it lacks all the polish four weeks of work would imply, with the asterisk that it was more like two and a half. 
             </section>
             <hr class="m-0" />
             <!-- Education-->
